@@ -1,0 +1,157 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "editor.accessibilitySupport": "off",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "none",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New'",
+  "editor.fontSize": 20,
+  "workbench.colorTheme": "React Theme",
+  "explorer.confirmDragAndDrop": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.fontFamily": "'Fira Code iScript', Consolas, 'Courier New'",
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+
+  // Prettier & eslint setup
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+
+    "source.fixAll.tslint": "explicit",
+
+    "source.organizeImports": "explicit"
+  },
+
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always",
+
+    "editor.formatOnSave": true
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "editor.autoClosingBrackets": "always"
+  },
+
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always",
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.accessibilityPageSize": 20,
+  "editor.tabSize": 10,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.editorAssociations": {
+    "*.js": "default",
+    "*.json": "default",
+    "*.lockb": "default"
+  },
+  "prettier.documentSelectors": ["jsx"],
+  "vsicons.dontShowNewVersionMessage": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.linkedEditing": true,
+  "workbench.sideBar.location": "right",
+  "editor.defaultFormatter": "formulahendry.auto-close-tag",
+
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    },
+    "*/.ts": {
+      "when": "**"
+    },
+    "*/.tsx": {
+      "when": "**"
+    }
+  },
+  "cSpell.userWords": [
+    "bangla",
+    "Bento",
+    "Bogura",
+    "Commerz",
+    "encryptor",
+    "fajr",
+    "formik",
+    "Fusionary",
+    "hadiths",
+    "Hasan",
+    "hookform",
+    "IELTS",
+    "iftar",
+    "Kiron",
+    "leaderboard",
+    "lucide",
+    "Oxted",
+    "Persistor",
+    "reduxjs",
+    "Refferal",
+    "Sahri",
+    "sonner",
+    "sslcommerz",
+    "Tafsir",
+    "tailwindcss",
+    "Toufiq",
+    "webp",
+    "zustand"
+  ],
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "explorer.compactFolders": false,
+  "workbench.editor.customLabels.patterns": {
+    " **/app/**/page.tsx": "${dirname(1)}/${dirname} <page>",
+    "**/app/**/layout.tsx": "${dirname(1)}/${dirname} <layout>",
+    "**/app/api/**/route.ts": "${dirname(1)}/${dirname} <route>"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "window.menuBarVisibility": "compact",
+  "editor.minimap.enabled": false
+}
