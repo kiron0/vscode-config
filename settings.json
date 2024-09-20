@@ -2,8 +2,7 @@
   "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
 "editor.emptySelectionClipboard": false,
-  "window.newWindowDimensions": "inherit",
-  "editor.multiCursorModifier": "ctrlCmd",
+"window.newWindowDimensions": "inherit",
   "files.trimTrailingWhitespace": true,
   "diffEditor.renderSideBySide": false,
   "editor.snippetSuggestions": "top",
@@ -83,54 +82,87 @@
   /**
    * Prettier
    **/
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+
+    "source.fixAll.tslint": "explicit",
+
+    "source.organizeImports": "explicit"
+  },
+
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "always",
     "editor.formatOnSave": true
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[tailwindcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
+
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "always"
   },
-"editor.codeActionsOnSave": {
-  "source.organizeImports": true
+
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+"[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "always"
 },
-  "prettier.requireConfig": true,
-  "prettier.useEditorConfig": false,
-  "explorer.sortOrder": "type",
-  "prettier.tabWidth": 4,
-  "vetur.format.options.tabSize": 4,
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.accessibilityPageSize": 20,
+  "editor.tabSize": 10,
+  "workbench.editorAssociations": {
+    "*.js": "default",
+    "*.json": "default",
+    "*.lockb": "default"
+  },
+  "prettier.documentSelectors": ["jsx"],
+  "vsicons.dontShowNewVersionMessage": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "formulahendry.auto-close-tag",
+
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    },
+    "*/.ts": {
+      "when": "**"
+    },
+    "*/.tsx": {
+      "when": "**"
+    }
+  },
   "workbench.tree.indent": 15,
   "[html]": {
     "editor.defaultFormatter": "apility.beautify-blade",
     "editor.formatOnSave": true
   },
-  "editor.wordWrapColumn": 120,
-  "files.autoSave": "afterDelay",
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-
+"editor.wordWrapColumn": 120,
   "editor.quickSuggestions": {
     "strings": true
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "security.workspace.trust.untrustedFiles": "open",
   "editor.linkedEditing": true,
@@ -190,6 +222,36 @@
     "file:///C:/Users/Kiron/custom-vscode.css",
     "file:///C:/Users/Kiron/vscode-script.js",
 ],
+"cSpell.userWords": [
+    "bangla",
+    "Bento",
+    "Bogura",
+    "Commerz",
+    "encryptor",
+    "fajr",
+    "formik",
+    "Fusionary",
+    "hadiths",
+    "Hasan",
+    "hookform",
+    "IELTS",
+    "iftar",
+    "Kiron",
+    "leaderboard",
+    "lucide",
+    "Oxted",
+    "Persistor",
+    "reduxjs",
+    "Refferal",
+    "Sahri",
+    "sonner",
+    "sslcommerz",
+    "Tafsir",
+    "tailwindcss",
+    "Toufiq",
+    "webp",
+    "zustand"
+  ],
   "workbench.iconTheme": "eq-material-theme-icons-light",
   "workbench.sideBar.location": "right",
   "material-icon-theme.files.color": "#42a5f5",
@@ -207,5 +269,7 @@
 "editor.renderControlCharacters": false,
 "workbench.editor.enablePreview": false,
 "window.menuBarVisibility": "toggle",
-"workbench.editor.showTabs": "none"
+"workbench.editor.showTabs": "none",
+"reactSnippets.settings.prettierEnabled": true,
+"prettier.trailingComma": "all"
 }
