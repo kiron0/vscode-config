@@ -103,6 +103,7 @@
 
   "[typescript]": {
     "editor.autoClosingBrackets": "always",
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
@@ -167,7 +168,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.linkedEditing": true,
   "editor.formatOnSave": false,
-  // "editor.fontLigatures": false,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "diffEditor.wordWrap": "on",
   "notebook.output.wordWrap": true,
@@ -268,8 +268,7 @@
 "editor.renderWhitespace": "all",
 "editor.renderControlCharacters": false,
 "workbench.editor.enablePreview": false,
-"window.menuBarVisibility": "toggle",
-"workbench.editor.showTabs": "none",
 "reactSnippets.settings.prettierEnabled": true,
-"prettier.trailingComma": "all"
+"prettier.trailingComma": "all",
+"window.menuBarVisibility": "toggle"
 }
